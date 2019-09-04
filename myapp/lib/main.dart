@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
+  home: Home(), // طريقة ثانية في برمجة الويدجت 
 ));
 
 class Home extends StatelessWidget {
