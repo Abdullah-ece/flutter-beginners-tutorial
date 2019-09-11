@@ -3,8 +3,8 @@ import 'quote.dart';
 
 class QuoteCard extends StatelessWidget {
 
-  final Quote quote;
-  QuoteCard({ this.quote });
+  final Quote quote; // لأنه متغير غير قابل للتغير بسبب أنه Stateless
+  QuoteCard({ this.quote }); //باني عادى بياخد القيمة تبع المتغير اثناء تعريف الغرض وبحطا بالمتغير الفوقاني
 
   @override
   Widget build(BuildContext context) {
